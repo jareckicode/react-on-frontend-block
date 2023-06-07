@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-react-on-frontend-block {
+	padding: 2px;
+}
+
+.mark-text {
+	border-right: .15em solid orange; 
+	white-space: nowrap;
+	margin-right: .15em;
+	animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+.mark-text:contains('*') {
+	margin-right: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}

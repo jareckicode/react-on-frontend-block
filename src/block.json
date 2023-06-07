@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/react-on-frontend-block",
+	"version": "0.1.0",
+	"title": "React On Frontend Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "react-on-frontend-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}
