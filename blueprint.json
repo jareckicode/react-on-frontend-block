@@ -2,14 +2,14 @@
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "siteOptions": {
         "blogname": "React App in Wordpress Block Theme"
-    }
-  "steps": {
-    {
-            "step": "installPlugin",
-            "pluginZipFile": {
-                "resource": "url",
-                "url": "https://raw.githubusercontent.com/jareckicode/react-on-frontend-block/blob/main/react-on-frontend-block.zip"
-            }
+  },
+  "steps": [
+      {
+        "step": "installPlugin",
+        "pluginZipFile": {
+            "resource": "url",
+            "url": "https://raw.githubusercontent.com/jareckicode/react-on-frontend-block/blob/main/react-on-frontend-block.zip"
         }
-  }
+      }
+  ]
 }
