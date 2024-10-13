@@ -10,6 +10,13 @@
         }
       },
       {
+        "step": "importWxr",
+        "file": {
+          "resource": "url",
+          "url": "https://raw.githubusercontent.com/jareckicode/react-on-frontend-block/main/content.xml"
+        }
+      },
+      {
         "step": "setSiteLanguage",
         "language": "pl_PL"
       }
