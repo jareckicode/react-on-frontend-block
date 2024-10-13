@@ -1,32 +1,34 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-    "plugins": [],
-    "steps": [
-      {
-        "step": "installPlugin",
-        "pluginData": {
-          "resource": "url",
-          "url": "https://raw.githubusercontent.com/jareckicode/react-on-frontend-block/main/react-on-frontend-block.zip"
-        }
-      },
-      {
-        "step": "importWxr",
-        "file": {
-          "resource": "url",
-          "url": "https://raw.githubusercontent.com/jareckicode/react-on-frontend-block/main/content.xml"
-        }
-      },
-      {
-        "step": "setSiteLanguage",
-        "language": "pl_PL"
+  "steps": [
+    {
+      "step": "login"
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/jareckicode/react-on-frontend-block/main/react-on-frontend-block.zip"
       }
-    ],
-    "preferredVersions": {
-      "php": "8.0",
-      "wp": "6.6"
     },
-    "features": {
-      "networking": true
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/jareckicode/react-on-frontend-block/main/content.xml"
+      }
     },
-    "login": true
+    {
+      "step": "setSiteLanguage",
+      "language": "pl_PL"
+    }
+  ],
+  "preferredVersions": {
+    "php": "8.0",
+    "wp": "6.6"
+  },
+  "features": {
+    "networking": true
+  },
+  "login": true
 }
